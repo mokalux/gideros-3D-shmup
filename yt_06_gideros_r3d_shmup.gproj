@@ -1,0 +1,100 @@
+<project>
+ <properties osx_domain="giderosmobile.com" win_domain="giderosmobile.com" html5_wasm="0" windowHeight="0" touchToMouse="1" logicalHeight="960" app_name="gideros_3d_shmup" encryptAssets="0" packageName="com.yourdomain.yourapp" app_icon="" architecture="7" html5_symbols="0" disableSplash="0" splashScaleMode="0" version="1.0" android_template="0" build_number="1" osx_bundle="com.yourdomain." retinaDisplay="0" html5_crash="" version_code="1" orientation="1" ios_bundle="com.yourdomain." osx_signingId="" win_org="GiderosMobile" html5_host="" osx_org="GiderosMobile" windowWidth="0" iosDevice="0" tv_icon="" backgroundColor="#ffffff" mouseToTouch="1" autorotation="0" encryptCode="0" logicalWidth="540" splash_h_image="" html5_fbload="100" mouseTouchOrder="0" exportMode="0" scaleMode="5" vsync="1" splash_v_image="" fps="60" html5_fbinstant="0" osx_installerId="" winrt_org="GiderosMobile" html5_pack="0" winrt_package="com.yourdomain.yourapp" html5_mem="256" osx_category="5">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="JSON"/>
+   <plugin enabled="1" name="ReactPhysics3D"/>
+   <plugin enabled="1" name="Require">
+    <property name="reqAccel" value="0"/>
+    <property name="reqAlphaCanvas" value="0"/>
+    <property name="reqCanOpenUrl" value=""/>
+    <property name="reqCanRespondUrl" value=""/>
+    <property name="reqCompass" value="0"/>
+    <property name="reqDisable32bits" value="0"/>
+    <property name="reqDisable64bits" value="0"/>
+    <property name="reqDisableArm" value="0"/>
+    <property name="reqDisableX86" value="0"/>
+    <property name="reqExpRegCompliance" value="0"/>
+    <property name="reqFullOrientation" value="0"/>
+    <property name="reqGps" value="0"/>
+    <property name="reqGpsBackground" value="0"/>
+    <property name="reqGpsReason" value=""/>
+    <property name="reqGyro" value="0"/>
+    <property name="reqMaxAspect" value="1"/>
+    <property name="reqMetal" value="0"/>
+    <property name="reqNoGps" value="1"/>
+    <property name="reqNoInternet" value="1"/>
+    <property name="reqNoMP3" value="0"/>
+    <property name="reqNoSensor" value="1"/>
+    <property name="reqNoVibrator" value="1"/>
+    <property name="reqNoXMP" value="0"/>
+    <property name="reqPhoneOnly" value="0"/>
+    <property name="reqPreventBackup" value="0"/>
+    <property name="reqScreenShape" value="1"/>
+    <property name="reqTVCompat" value="0"/>
+    <property name="reqTVExtCompat" value="0"/>
+    <property name="reqTouch" value="0"/>
+    <property name="reqWriteExternalStorage" value="0"/>
+   </plugin>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property name="androidPath" value=""/>
+    <property name="androidSdk" value=""/>
+    <property name="androidTarget" value="28"/>
+    <property name="androidTools" value=""/>
+    <property name="buildAab" value="0"/>
+    <property name="buildApk" value="1"/>
+    <property name="deployApk" value="0"/>
+    <property name="javaPath" value=""/>
+    <property name="keyAlias" value=""/>
+    <property name="keyStore" value=""/>
+    <property name="packageName" value="com.mokalux"/>
+    <property name="timestampApk" value="0"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="3d_models">
+  <folder name="enemies">
+   <file name="assets/3d_models/enemies/enemy_class.lua"/>
+   <file name="assets/3d_models/enemies/ship03.mtl"/>
+   <file name="assets/3d_models/enemies/ship03.obj"/>
+   <file name="assets/3d_models/enemies/ship03.png"/>
+  </folder>
+  <folder name="missiles">
+   <file name="assets/3d_models/missiles/missile03.mtl"/>
+   <file name="assets/3d_models/missiles/missile03.obj"/>
+   <file name="assets/3d_models/missiles/missile03.png"/>
+   <file name="assets/3d_models/missiles/missile_class.lua"/>
+  </folder>
+  <folder name="player1">
+   <file name="assets/3d_models/player1/player1_class.lua"/>
+   <file name="assets/3d_models/player1/ship01.mtl"/>
+   <file name="assets/3d_models/player1/ship01.obj"/>
+   <file name="assets/3d_models/player1/ship01.png"/>
+  </folder>
+  <folder name="texs">
+   <file name="assets/3d_models/texs/bg.png"/>
+   <file name="assets/3d_models/texs/explosions-3.png"/>
+  </folder>
+ </folder>
+ <folder name="3dbase">
+  <file name="assets/3dbase/3DAnimation.lua"/>
+  <file name="assets/3dbase/3DGdxLoader.lua"/>
+  <file name="assets/3dbase/3DLighting.lua"/>
+  <file name="assets/3dbase/3DObjLoader.lua"/>
+  <file name="assets/3dbase/3DShaders.lua"/>
+  <file name="assets/3dbase/3DShapes.lua"/>
+  <file name="assets/3dbase/3DView.lua"/>
+  <file name="assets/3dbase/G3DFormat.lua"/>
+ </folder>
+ <folder name="audio">
+  <file name="assets/audio/Explosion.wav"/>
+  <file name="assets/audio/Laser_Shoot.wav"/>
+ </folder>
+ <folder name="classes">
+  <file name="assets/classes/mobileOleg.lua"/>
+  <file name="assets/classes/mobileX.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>
